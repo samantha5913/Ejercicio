@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{842074E0-2189-46D3-9386-5A6F70D2E38C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Produccion</RootNamespace>
+    <AssemblyName>Produccion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\bootstrap-clockpicker.css" />
+    <Content Include="CSS\bootstrap-clockpicker.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="Eficiencia.aspx" />
+    <Content Include="Imagenes\png\eliminar.png" />
+    <Content Include="Imagenes\png\machinery-11.png" />
+    <Content Include="Imagenes\png\machinery-39.png" />
+    <Content Include="Imagenes\png\machinery-40.png" />
+    <Content Include="Imagenes\png\machinery-8.png" />
+    <Content Include="js\bootstrap-clockpicker.js" />
+    <Content Include="js\clockface.js" />
+    <Content Include="CSS\jquery-clockpicker.css" />
+    <Content Include="js\jquery-clockpicker.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="CSS\sb-admin-2.css" />
+    <Content Include="CSS\sb-admin.css" />
+    <Content Include="CSS\tablas.css" />
+    <Content Include="Operador1.aspx" />
+    <Content Include="EficienciaVista.aspx" />
+    <Content Include="font-awesome\css\font-awesome.css" />
+    <Content Include="font-awesome\css\font-awesome.min.css" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Imagenes\alcaline_spiral_calendar.png" />
+    <Content Include="Imagenes\ccl.ico" />
+    <Content Include="Imagenes\Fondo negro relieve verde.jpg" />
+    <Content Include="Imagenes\fondooscuro.jpg" />
+    <Content Include="Imagenes\gear-art-mechanism.jpg" />
+    <Content Include="Imagenes\header_logo_ccl_mexico.gif" />
+    <Content Include="Imagenes\huellas.gif" />
+    <Content Include="Imagenes\mallametalica.jpg" />
+    <Content Include="Imagenes\png\attach.png" />
+    <Content Include="Imagenes\png\balance.png" />
+    <Content Include="Imagenes\png\calculator-1.png" />
+    <Content Include="Imagenes\png\calculator.png" />
+    <Content Include="Imagenes\png\calendar %282%29.png" />
+    <Content Include="Imagenes\png\calendar-1.png" />
+    <Content Include="Imagenes\png\calendar.png" />
+    <Content Include="Imagenes\png\clock %282%29.png" />
+    <Content Include="Imagenes\png\clock.png" />
+    <Content Include="Imagenes\png\compact-disc.png" />
+    <Content Include="Imagenes\png\contract.png" />
+    <Content Include="Imagenes\png\cursor.png" />
+    <Content Include="Imagenes\png\dart-board.png" />
+    <Content Include="Imagenes\png\diskette.png" />
+    <Content Include="Imagenes\png\files.png" />
+    <Content Include="Imagenes\png\folder.png" />
+    <Content Include="Imagenes\png\graph-1.png" />
+    <Content Include="Imagenes\png\graph-2.png" />
+    <Content Include="Imagenes\png\graph-3.png" />
+    <Content Include="Imagenes\png\graph.png" />
+    <Content Include="Imagenes\png\id-card.png" />
+    <Content Include="Imagenes\png\light-bulb.png" />
+    <Content Include="Imagenes\png\logoexcel.png" />
+    <Content Include="Imagenes\png\magnifying-glass.png" />
+    <Content Include="Imagenes\png\pendrive %282%29.png" />
+    <Content Include="Imagenes\png\pendrive.png" />
+    <Content Include="Imagenes\png\printer.png" />
+    <Content Include="Imagenes\png\research-1.png" />
+    <Content Include="Imagenes\png\research.png" />
+    <Content Include="Imagenes\png\scissors.png" />
+    <Content Include="Imagenes\png\search-1.png" />
+    <Content Include="Imagenes\png\search.png" />
+    <Content Include="Imagenes\png\settings-1.png" />
+    <Content Include="Imagenes\png\settings.png" />
+    <Content Include="Imagenes\png\statistics %282%29.png" />
+    <Content Include="Imagenes\png\statistics.png" />
+    <Content Include="Imagenes\wallpapers-blancos.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MenuSupervisor.aspx" />
+    <Content Include="OrdenProduccion.aspx" />
+    <Content Include="Producction.aspx" />
+    <Content Include="RegistroUsuarios.aspx" />
+    <Content Include="Supervisor.aspx" />
+    <Content Include="video.aspx" />
+    <Content Include="Video\CCLProduccion.mp4" />
+    <Content Include="VistasOperador.aspx" />
+    <Content Include="VistasSupervisor.aspx" />
+    <Content Include="VistasSupYNom.aspx" />
+    <Content Include="VistasXHorario.aspx" />
+    <Content Include="VistasXProduccion.aspx" />
+    <Content Include="V_OperadorXNombre.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Almacenar.cs" />
+    <Compile Include="Calcular.cs" />
+    <Compile Include="Conexión.cs" />
+    <Compile Include="Eficiencia.aspx.cs">
+      <DependentUpon>Eficiencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eficiencia.aspx.designer.cs">
+      <DependentUpon>Eficiencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operador1.aspx.cs">
+      <DependentUpon>Operador1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operador1.aspx.designer.cs">
+      <DependentUpon>Operador1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EficienciaVista.aspx.cs">
+      <DependentUpon>EficienciaVista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EficienciaVista.aspx.designer.cs">
+      <DependentUpon>EficienciaVista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSupervisor.aspx.cs">
+      <DependentUpon>MenuSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuSupervisor.aspx.designer.cs">
+      <DependentUpon>MenuSupervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modificar.cs" />
+    <Compile Include="OrdenProduccion.aspx.cs">
+      <DependentUpon>OrdenProduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrdenProduccion.aspx.designer.cs">
+      <DependentUpon>OrdenProduccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Producction.aspx.cs">
+      <DependentUpon>Producction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Producction.aspx.designer.cs">
+      <DependentUpon>Producction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroUsuarios.aspx.cs">
+      <DependentUpon>RegistroUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroUsuarios.aspx.designer.cs">
+      <DependentUpon>RegistroUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor.aspx.cs">
+      <DependentUpon>Supervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor.aspx.designer.cs">
+      <DependentUpon>Supervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="video.aspx.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="video.aspx.designer.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistasOperador.aspx.cs">
+      <DependentUpon>VistasOperador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistasOperador.aspx.designer.cs">
+      <DependentUpon>VistasOperador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistasSupervisor.aspx.cs">
+      <DependentUpon>VistasSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistasSupervisor.aspx.designer.cs">
+      <DependentUpon>VistasSupervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistasSupYNom.aspx.cs">
+      <DependentUpon>VistasSupYNom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistasSupYNom.aspx.designer.cs">
+      <DependentUpon>VistasSupYNom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistasXHorario.aspx.cs">
+      <DependentUpon>VistasXHorario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistasXHorario.aspx.designer.cs">
+      <DependentUpon>VistasXHorario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistasXProduccion.aspx.cs">
+      <DependentUpon>VistasXProduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistasXProduccion.aspx.designer.cs">
+      <DependentUpon>VistasXProduccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="V_OperadorXNombre.aspx.cs">
+      <DependentUpon>V_OperadorXNombre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="V_OperadorXNombre.aspx.designer.cs">
+      <DependentUpon>V_OperadorXNombre.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome\less\bordered-pulled.less" />
+    <Content Include="font-awesome\less\core.less" />
+    <Content Include="font-awesome\less\fixed-width.less" />
+    <Content Include="font-awesome\less\font-awesome.less" />
+    <Content Include="font-awesome\less\icons.less" />
+    <Content Include="font-awesome\less\larger.less" />
+    <Content Include="font-awesome\less\list.less" />
+    <Content Include="font-awesome\less\mixins.less" />
+    <Content Include="font-awesome\less\path.less" />
+    <Content Include="font-awesome\less\rotated-flipped.less" />
+    <Content Include="font-awesome\less\spinning.less" />
+    <Content Include="font-awesome\less\stacked.less" />
+    <Content Include="font-awesome\less\variables.less" />
+    <Content Include="font-awesome\scss\font-awesome.scss" />
+    <Content Include="font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome\scss\_core.scss" />
+    <Content Include="font-awesome\scss\_fixed-width.scss" />
+    <Content Include="font-awesome\scss\_icons.scss" />
+    <Content Include="font-awesome\scss\_larger.scss" />
+    <Content Include="font-awesome\scss\_list.scss" />
+    <Content Include="font-awesome\scss\_mixins.scss" />
+    <Content Include="font-awesome\scss\_path.scss" />
+    <Content Include="font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome\scss\_spinning.scss" />
+    <Content Include="font-awesome\scss\_stacked.scss" />
+    <Content Include="font-awesome\scss\_variables.scss" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="Instructivo\Manual De Usuario.pdf" />
+    <None Include="Properties\PublishProfiles\Miaplicacion.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7617</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7617/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

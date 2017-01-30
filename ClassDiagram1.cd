@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Produccion.Almacenar">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Almacenar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Produccion.Calcular">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIQAAAhAACAIBCAEAgAEABABUAQgAAAAAAAAIAQ=</HashCode>
+      <FileName>Calcular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Produccion.Conexión">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAQCAAAAAAA=</HashCode>
+      <FileName>Conexión.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Produccion.Eliminar">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAgAAIAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Eliminar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Produccion.Modificar">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modificar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
